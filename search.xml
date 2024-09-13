@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>one_blog</title>
+      <link href="/2024/09/13/one-blog/"/>
+      <url>/2024/09/13/one-blog/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Hexo Blog!!!</title>
+      <link href="/2013/07/13/hello-world/"/>
+      <url>/2013/07/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>This is GZLB’s first Blog,which he uses for testing</p><p>Debugged a Blog post for the first time<br>Learn MD syntax</p><h2 id="Test-One"><a href="#Test-One" class="headerlink" title="Test One"></a>Test One</h2><p>Code Model</p><p>Use   &#96;&#96;&#96;py </p><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello&quot;</span>)</span><br></pre></td></tr></table></figure><p>Use   &#96;&#96;&#96;bash</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h2 id="Test-Two"><a href="#Test-Two" class="headerlink" title="Test Two"></a>Test Two</h2><p>突出块<br>use   &gt;  </p><blockquote><p>微信公众号排版工具。问题或建议，请公众号留言。</p></blockquote><h2 id="Test-Three"><a href="#Test-Three" class="headerlink" title="Test Three"></a>Test Three</h2><p>插入图片</p><!-- Use ![这里是图片描述](这里是路径)  --> <p><img src="/../images/preview.gif" class="lazyload placeholder" data-srcset="/../images/preview.gif" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="Test"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> default </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> default </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
