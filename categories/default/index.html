@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8" />
-    <title>GZLB的博客123</title>
+    <title>Categories: default | GZLB的博客123</title>
     <meta name="author" content="GZLB" />
     <meta name="description" content="蔡儿子，我是你爸爸" />
     <meta name="keywords" content="TEST" />
@@ -41,8 +41,6 @@
 
 
 
-
-<script src="/js/lib/home.js"></script>
 
 <link rel="stylesheet" href="/css/main.css" />
 
@@ -152,72 +150,14 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            <div id="home-head">
-    <div
-        id="home-background"
-        ref="homeBackground"
-        data-images="/images/wallhaven-kx87e7.webp"
-    ></div>
-    <div id="home-info" @click="homeClick">
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="info">
-            <div class="wrap">
-                <h1>GZLB的博客123</h1>
-                <h3>GZLB的第一篇博客</h3>
-                <h5>蔡儿子，我是你爸爸</h5>
-            </div>
-        </span>
-    </div>
-</div>
-<div
-    id="home-posts-wrap"
-    ref="homePostsWrap"
-    true
->
-    <div id="home-posts">
-        
-
-<div class="post">
-    <a href="/2024/09/13/one-blog/">
-        <h2 class="post-title">one_blog</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2024/9/13
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            
-            
-        </div>
-    </div>
-    <div class="post-tags">
+            <div id="archives">
+    
+    <div class="categories-tags">
         
         
         
-    </div>
-    <a href="/2024/09/13/one-blog/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2013/07/13/hello-world/">
-        <h2 class="post-title">Hello Hexo Blog!!!</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="category">
-            <a href="/categories/default/">
+        <span>
+            <a href="/categories/default/" style="background: linear-gradient(120deg, #9abbf7 0%, #ffbbf4 100%)">
                 <span class="icon">
                     <i class="fa-solid fa-bookmark fa-fw"></i>
                 </span>
@@ -225,91 +165,47 @@
             </a>
         </span>
         
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2013/7/13
-        </span>
+        
         
         
     </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <p>This is GZLB’s first Blog,which he uses for testing</p>
-<p>Debugged a Blog post for the first time<br>Learn MD syntax</p>
-<h2 id="Test-One"><a href="#Test-One" class="headerlink" title="Test One"></a>Test One</h2><p>Code Model</p>
-<p>Use   &#96;&#96;&#96;py </p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>Use   &#96;&#96;&#96;bash</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h2 id="Test-Two"><a href="#Test-Two" class="headerlink" title="Test Two"></a>Test Two</h2><p>突出块<br>use   &gt;  </p>
-<blockquote>
-<p>微信公众号排版工具。问题或建议，请公众号留言。</p>
-</blockquote>
-<h2 id="Test-Three"><a href="#Test-Three" class="headerlink" title="Test Three"></a>Test Three</h2><p>插入图片</p>
-<!-- Use ![这里是图片描述](这里是路径)  --> 
-<p><img src="/../images/preview.gif" alt="エロ"></p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        <span class="icon">
-            <i class="fa-solid fa-tags fa-fw"></i>
-        </span>
-        
-        
-        
-        <span class="tag">
-            
-            <a href="/tags/default/" style="color: #ffa2c4">default</a>
-        </span>
-        
-    </div>
-    <a href="/2013/07/13/hello-world/" class="go-post">阅读全文</a>
-</div>
-
-
-        <div class="page-current">
     
-    <span class="current">1</span>
-    
-    
-    
-    
-</div>
-
-    </div>
-    
-    <div id="home-card">
-        <div id="card-style">
-    <div id="card-div">
-        <div class="avatar">
-            <img src="/images/avatar.jpg" alt="avatar" />
-        </div>
-        <div class="name">GZLB</div>
-        <div class="description">
-            <p>Description<br>…</p>
-
-        </div>
-        
-        
-        <div class="friend-links">
-            
-            <div class="friend-link">
-                <a target="_blank" rel="noopener" href="https://argvchs.github.io">Argvchs</a>
+    <div class="timeline">
+        <div class="timeline-tail"></div>
+        <div class="timeline-content">
+            <div class="item-time">2013/7/13</div>
+            <a href="/2013/07/13/hello-world/">
+                <h3>Hello Hexo Blog!!!</h3>
+            </a>
+            <div class="info">
+                
+                <span class="category">
+                    <a href="/categories/default/">
+                        <span class="icon">
+                            <i class="fa-solid fa-bookmark fa-fw"></i>
+                        </span>
+                        default
+                    </a>
+                </span>
+                
+                
+                <span class="tags">
+                    <span class="icon">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </span>
+                    
+                    
+                    <span class="tag">
+                        
+                        <a href="/tags/default/" style="color: #00bcd4">
+                            default
+                        </a>
+                    </span>
+                    
+                </span>
+                
             </div>
-            
         </div>
-        
-    </div>
-</div>
-
     </div>
     
 </div>
