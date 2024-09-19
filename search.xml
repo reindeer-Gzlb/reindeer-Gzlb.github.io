@@ -4,16 +4,35 @@
   
     
     <entry>
-      <title>蔡仔点进来</title>
-      <link href="/2024/09/13/%E8%94%A1%E4%BB%94%E7%82%B9%E8%BF%9B%E6%9D%A5/"/>
-      <url>/2024/09/13/%E8%94%A1%E4%BB%94%E7%82%B9%E8%BF%9B%E6%9D%A5/</url>
+      <title>Hexo使用和MarkDown使用</title>
+      <link href="/2024/09/19/Hexo%E5%92%8Cgithub/"/>
+      <url>/2024/09/19/Hexo%E5%92%8Cgithub/</url>
       
-        <content type="html"><![CDATA[<h2 id="啊哈哈哈哈"><a href="#啊哈哈哈哈" class="headerlink" title="啊哈哈哈哈"></a>啊哈哈哈哈</h2><p><img src="/images/30724fb2eeb3a23fe0bc683142fbd15.jpg" class="lazyload placeholder" data-srcset="/images/30724fb2eeb3a23fe0bc683142fbd15.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="蔡儿子"></p>]]></content>
+        <content type="html"><![CDATA[<p><strong>因为用英文符号会被识别，所以下面使用中文符号说明</strong></p><h3 id="Hexo基础使用命令记录"><a href="#Hexo基础使用命令记录" class="headerlink" title="Hexo基础使用命令记录"></a>Hexo基础使用命令记录</h3><p>Hexo s<br>Hexo d<br>Hexo g<br>Hexo new  【layout】 【title】</p><h3 id="MarkDown基础使用语法记录"><a href="#MarkDown基础使用语法记录" class="headerlink" title="MarkDown基础使用语法记录"></a>MarkDown基础使用语法记录</h3><p>标题大小用#区分<br>链接用【显示文本】（链接url）<br>代码块用首尾双 &#96;</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo,MarkDown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>React-Native</title>
+      <link href="/2024/09/19/React-Native/"/>
+      <url>/2024/09/19/React-Native/</url>
+      
+        <content type="html"><![CDATA[<h3 id="React-Native环境搭建"><a href="#React-Native环境搭建" class="headerlink" title="React-Native环境搭建"></a>React-Native环境搭建</h3><p><em><strong>准备好科学上网工具，可以事半功倍！！！</strong></em><br><em><strong>准备好科学上网工具，可以事半功倍！！！</strong></em><br><em><strong>准备好科学上网工具，可以事半功倍！！！</strong></em></p><p>图片后期配置~<br>首先说明：本人是参考该链接教程学习搭建React-Native环境的，所以在下面放出链接👇<br><a href="https://blog.csdn.net/summer___cold/article/details/135421493">React-Native环境配置搭建</a><br><a href="https://reactnative.cn/docs/environment-setup">React-Native官网教程链接</a></p><p>React-Native依赖较多，所以在开头说明下一共需要哪些依赖后我们逐步说明：<br><em><strong>Node</strong></em><br><em><strong>JDK</strong></em><br><em><strong>Android 开发环境(Android Studio，Android 模拟器,SDK Manager,配置环境变量)</strong></em><br><em><strong>react-native-cli,mac电脑(用于调试IOS)</strong></em></p><h3 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h3><p>node必须在14以上，可以直接搜Node去官网下载（开发必备工具了）<br>推荐下载稳定版<br><a href="https://nodejs.cn/">Node官网链接</a><br>安装完成后可使用 <code>win+r</code> 输入 <code>cmd</code> 回车。在面板输入 <code>node -v</code> 检测是否安装完成，返回对应版本号即为成功</p><h3 id="JDK"><a href="#JDK" class="headerlink" title="JDK"></a>JDK</h3><p>React Native 需要 Java Development Kit [JDK] 11。你可以在命令行中输入 javac -version（请注意是 javac，不是 java）来查看你当前安装的 JDK 版本。如果版本不合要求，则可以去Temurin或Oracle JDK上下载(后者下载需注册登录)。<br>2024-09-19 推荐下载JDK17,另外记得选择自己电脑系统版本噢。下载后一路下一步安装即可<br><a href="https://www.oracle.com/java/technologies/downloads/">JDK链接</a><br>安装完成后可使用 <code>win+r</code> 输入 <code>cmd</code> 回车。在面板输入 <code>javac -version</code> 检测是否安装完成，返回对应版本号即为成功</p><h3 id="Android-开发环境"><a href="#Android-开发环境" class="headerlink" title="Android 开发环境"></a>Android 开发环境</h3><ol><li>下载 Android Studio，这时候就最好开启你的科学上网工具了<br> <a href="https://developer.android.google.cn/studio?hl=zh-cn">Android Studio官方下载链接</a><br>下载得到 <em><strong>android-studio-20xx.x.x.xx-windows.exe</strong></em>，双击打开安装(该教程下载的为android-studio-2024.1.2.12-windows)<br>打开后一路Next到最后（本教程安装位置是防止到C盘路径，无修改安装路径）</li></ol><p>如果在中途遇到询问是否要配置代理，直接Cancel掉。配置代理的话可能有坑（本教程已踩坑过。因为代理导致无法下载对应插件）</p><p>后续会遇到一个名为Install Type的页面，建议选择Custom进行自定义，点击下一步后把能勾选的全部勾选上。如出现勾选不了的问题也无事，我们可后续进行安装<br>通常会有 Android SDK，Android SDK Plaform，Android Virtual Device等。（size大概2G左右，后续就是等待安装完成了）</p><p>——— 2024-09-19 11.55 下次有空在继续更新————</p>]]></content>
       
       
       <categories>
           
-          <category> life </category>
+          <category> react-native </category>
           
       </categories>
       
